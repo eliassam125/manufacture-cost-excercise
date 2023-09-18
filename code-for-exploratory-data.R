@@ -40,4 +40,5 @@ combined_plot <- grid.arrange(plot_a, plot_b, ncol = 2)  # Display plots in two 
 
 # Print the combined plot
 print(combined_plot)
-ggsave("plot_of_this_code.png", combined_plot, width = 16, height = 9)
+#change this to the rute where you want to save the img file
+ggsave("C:/Users/Usuario/Desktop/projectos visual studio/manufactury project/plot of this code.png", combined_plot, width = 16, height = 9)
